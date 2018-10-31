@@ -1,0 +1,447 @@
+@charset "UTF-8";
+a:link {
+  color: #fff;
+  text-decoration: none; }
+
+a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  color: #efefef; }
+
+a:active {
+  color: #fff;
+  text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/top_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  header .head_kuang {
+    height: 48px;
+    width: 100%; }
+  header .head {
+    height: 48px;
+    width: 1248px;
+    margin: 0 auto; }
+    header .head .left_part {
+      height: 30px;
+      width: 640px;
+      float: left;
+      margin-top: 10px;
+      color: #fff;
+      font-size: 15px; }
+      header .head .left_part img {
+        position: relative;
+        top: -5px;
+        left: -10px; }
+      header .head .left_part a {
+        padding-left: 20px;
+        position: relative;
+        top: -20px; }
+    header .head .login_nav {
+      height: 45px;
+      width: 130px;
+      float: right; }
+      header .head .login_nav .button1 {
+        height: 34px;
+        width: 60px;
+        border: 1.3px solid #d1d4d2;
+        border-radius: 3px;
+        float: left;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 10px; }
+      header .head .login_nav .button1:hover {
+        transform: scale3d(1.1, 1.1, 1.2); }
+      header .head .login_nav .button2 {
+        height: 34px;
+        width: 60px;
+        border-radius: 3px;
+        border: none;
+        float: left;
+        margin-left: 10px;
+        background: #ec414d;
+        margin-top: 10px; }
+      header .head .login_nav .button2:hover {
+        transform: scale3d(1.1, 1.1, 1.2); }
+    header .head .menu_nav {
+      height: 24px;
+      width: 28px;
+      border-right: 1px solid;
+      display: inline-block;
+      position: relative;
+      top: -15px;
+      left: 10px;
+      line-height: 24px;
+      font-size: 30px; }
+    header .head .entrance {
+      height: 14px;
+      width: 30px;
+      background: #f6a623;
+      display: inline-block;
+      color: #fff;
+      font-size: 12px;
+      position: relative;
+      text-align: center;
+      line-height: 14px;
+      top: -20px;
+      left: -5px; }
+  header .header_title {
+    height: 54px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: '楷体 Regular';
+    font-size: 55px;
+    padding-top: 140px; }
+  header .search_box {
+    height: 69px;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px; }
+    header .search_box input {
+      height: 40px;
+      width: 540px;
+      border: 1px solid #fff;
+      border-radius: 2px;
+      text-indent: 20px;
+      font-size: 15px; }
+    header .search_box .icon-user {
+      position: absolute;
+      left: 0;
+      z-index: 5;
+      background-image: url(../img/search.png);
+      background-repeat: no-repeat;
+      background-position: relative;
+      left: 1180px;
+      width: 60px;
+      height: 40px; }
+    header .search_box .icon-user:hover {
+      transform: scale3d(1.1, 1.1, 1.1); }
+    header .search_box .hot_words {
+      height: 19px;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-size: 13px;
+      line-height: 35px; }
+      header .search_box .hot_words span {
+        color: rgba(255, 255, 255, 0.8); }
+
+section {
+  height: 2200px;
+  width: 100%; }
+  section .recommend-line {
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0 40px 0;
+    border-bottom: 1px solid #ededed;
+    text-align: center; }
+    section .recommend-line a {
+      height: 20px;
+      width: 95px;
+      color: #999999;
+      line-height: 60px;
+      background: #ffffff; }
+  section .Advertisement {
+    height: 180px;
+    width: 1540px;
+    margin: 0 auto; }
+    section .Advertisement .Advertisement-waikuang {
+      width: 180px;
+      width: 100%; }
+    section .Advertisement .Advertisement-in {
+      height: 180px;
+      width: 236px;
+      margin-left: 20px;
+      background: red;
+      float: left;
+      border-radius: 5px; }
+      section .Advertisement .Advertisement-in img {
+        height: 100%;
+        width: 100%; }
+  section .recommend-waikuang {
+    height: 1600px;
+    width: 100%; }
+    section .recommend-waikuang .recommend-area {
+      height: 1496px;
+      width: 1500px;
+      margin: 0 auto; }
+      section .recommend-waikuang .recommend-area .recommend-area-hang {
+        height: 296px;
+        width: 100%;
+        margin-top: 5px; }
+        section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box {
+          height: 296px;
+          width: 296px;
+          float: left;
+          position: relative;
+          margin-left: 3px;
+          background: #fafafa; }
+          section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box img {
+            height: 100%;
+            width: 100%; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box img .hover {
+              width: 296px;
+              height: 296px;
+              position: absolute;
+              bottom: 0px;
+              left: 0px; }
+          section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban {
+            height: 146px;
+            width: 296px;
+            background: #fafafa;
+            margin: 0 0 5px 0;
+            text-indent: 5px; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_left {
+              height: 146px;
+              width: 200px;
+              float: left; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_left p {
+                font-size: 10px;
+                color: #999999;
+                line-height: 1px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_left span {
+                color: #999999;
+                font-size: 15px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_left a {
+                font-size: 14px;
+                color: #9e7e6b; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_right {
+              height: 146px;
+              width: 200px;
+              float: right;
+              text-indent: 5px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_right p {
+                font-size: 10px;
+                color: #999999;
+                line-height: 1px;
+                text-indent: 60px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_right span {
+                color: #999999;
+                font-size: 15px;
+                margin-left: 5px;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_right a {
+                font-size: 14px;
+                color: #9e7e6b;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_right h4 {
+                text-indent: 65px;
+                font-family: '宋体'; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_second {
+              height: 146px;
+              width: 200px;
+              float: right;
+              text-indent: 5px;
+              margin-top: 135px;
+              padding-bottom: -10px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_second p {
+                font-size: 10px;
+                color: #999999;
+                line-height: 1px;
+                text-indent: 60px;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_second span {
+                color: #999999;
+                font-size: 15px;
+                margin-left: 5px;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_second a {
+                font-size: 14px;
+                color: #9e7e6b;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .huaban_second .biaoshi {
+                text-indent: 50px;
+                float: right; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .recommend-area-box-huaban-first {
+              height: 46px;
+              width: 100px;
+              background: #fafafafa;
+              border-bottom: 1px solid #ededed;
+              font-size: 40px;
+              margin-left: 5px;
+              color: #dddddd;
+              margin-bottom: 5px;
+              font-family: '新宋体 Regular'; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .recommend-area-box-huaban-first2 {
+              height: 46px;
+              width: 100px;
+              background: #fafafafa;
+              border-bottom: 1px solid #ededed;
+              font-size: 40px;
+              margin-left: 5px;
+              color: #dddddd;
+              margin-bottom: 5px;
+              font-family: '新宋体 Regular';
+              float: right; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban .recommend-area-box-huaban-first3 {
+              height: 46px;
+              width: 100px;
+              background: #fafafafa;
+              border-bottom: 1px solid #ededed;
+              font-size: 40px;
+              margin-left: 5px;
+              color: #dddddd;
+              margin-bottom: 5px;
+              font-family: '新宋体 Regular';
+              float: right; }
+          section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 {
+            height: 146px;
+            width: 296px;
+            margin: 0 0 5px 0;
+            text-indent: 5px; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_left {
+              height: 146px;
+              width: 200px;
+              float: left; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_left p {
+                font-size: 10px;
+                color: #999999;
+                line-height: 1px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_left span {
+                color: #999999;
+                font-size: 15px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_left a {
+                font-size: 14px;
+                color: #9e7e6b; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_right {
+              height: 146px;
+              width: 200px;
+              float: right;
+              text-indent: 5px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_right p {
+                font-size: 10px;
+                color: #999999;
+                line-height: 1px;
+                text-indent: 60px; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_right span {
+                color: #999999;
+                font-size: 15px;
+                margin-left: 5px;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_right a {
+                font-size: 14px;
+                color: #9e7e6b;
+                float: right; }
+              section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .huaban_right h4 {
+                text-indent: 65px;
+                font-family: '宋体'; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .recommend-area-box-huaban-first {
+              height: 46px;
+              width: 100px;
+              border-bottom: 1px solid #ededed;
+              font-size: 40px;
+              margin-left: 5px;
+              color: #dddddd;
+              margin-bottom: 5px;
+              font-family: '新宋体 Regular'; }
+            section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box .recommend-area-box-huaban2 .recommend-area-box-huaban-first2 {
+              height: 46px;
+              width: 100px;
+              border-bottom: 1px solid #ededed;
+              font-size: 40px;
+              margin-left: 5px;
+              color: #dddddd;
+              margin-bottom: 5px;
+              font-family: '新宋体 Regular';
+              float: right; }
+        section .recommend-waikuang .recommend-area .recommend-area-hang .recommend-area-box:hover .hover {
+          width: 296px;
+          height: 296px;
+          transform: all 4s ease;
+          background: rgba(181, 216, 218, 0.2);
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          display: block; }
+  section .jiazai {
+    height: 85px;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    margin: -40px 0 15px 0; }
+    section .jiazai .jiazai-box {
+      height: 40px;
+      width: 755px;
+      background: #f7f7f7;
+      margin-left: 400px;
+      margin-top: 30px;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      color: #999999; }
+  section .fenlei {
+    height: 250px;
+    width: 100%;
+    margin-top: 40px; }
+    section .fenlei ul {
+      float: left;
+      font-size: 13px;
+      margin-right: 5px;
+      margin-left: -40px; }
+    section .fenlei li {
+      height: 26px;
+      width: 250px;
+      list-style: none; }
+    section .fenlei .feilei-top {
+      height: 28px;
+      width: 100%;
+      border-bottom: 1px solid #ededed; }
+      section .fenlei .feilei-top span {
+        line-height: 28px;
+        float: left; }
+      section .fenlei .feilei-top a {
+        line-height: 28px;
+        float: right;
+        color: #9e7e6b; }
+
+footer {
+  height: 258px;
+  width: 100%;
+  background: #333; }
+  footer .footer-daohang {
+    height: 143px;
+    width: 1500px;
+    display: inline-block;
+    margin: 20px 0 20px 200px; }
+    footer .footer-daohang ul {
+      height: 41px;
+      width: 200px;
+      float: left;
+      margin-left: -40px;
+      margin-top: -3px; }
+    footer .footer-daohang li {
+      list-style: none;
+      margin-top: 15px;
+      color: #dddddd;
+      font-size: 10px; }
+    footer .footer-daohang .fotter-right {
+      height: 166px;
+      width: 310px;
+      border-left: 1px solid #555555;
+      border-right: 1px solid #555555;
+      float: right; }
+      footer .footer-daohang .fotter-right ul {
+        margin-left: 1px; }
+  footer .end {
+    height: 60px;
+    width: 100%;
+    background: black;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    color: #999999; }
+
+.footer-daohang ul li:nth-child(1) {
+  font-size: 16px; }
+
+/*# sourceMappingURL=sass.css.map */
